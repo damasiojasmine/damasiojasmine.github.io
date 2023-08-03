@@ -1,0 +1,262 @@
+#imagem_fundo {
+    text-align: center;
+    background: url(fundo.jpg);
+    height: 100%;
+    background-size: cover;
+    
+}
+
+@media all and (max-width:768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro, .cinco {
+        display: block;
+        width: 80px;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .destaque, .destaque2, .destaque3 {
+        display: block;
+        width: 80px;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+}
+
+@media all and (max-width:800px) {
+    .coluna .dois  {
+        display: block;
+        width: 80px;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+        
+}
+
+
+
+
+#lista1 {
+    padding-left: 90px;
+    float: left;
+    list-style: circle;
+    margin-top: 0%;
+}
+#lista2 {
+    padding-left: 90px;
+    float: left;
+    list-style: decimal;
+    margin-top: 0%;
+}
+#lista3 {
+    padding-left: 90px;
+    float: left;
+    list-style: circle;
+    margin-top: 0%;
+}
+
+
+
+.icone  {
+    width: 51px;
+}
+
+#titulo {
+
+    color: aliceblue;
+    padding-top: 10%;
+    font-size: 60px;
+    text-align: center;
+}
+
+#subtitulo {
+    color: aliceblue;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+
+}
+
+#acao {
+    color: aliceblue;
+    border: 1px aliceblue solid;
+    padding: 7px 10px 10px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-decoration: double;
+}
+
+.destaque2  {
+    background-color: rgb(209, 126, 49);
+    height:60%;
+}
+
+.destaque{
+    background-color: rgb(213, 147, 33);
+}
+.destaque3 {
+ background-color: rgb(76, 109, 141);   
+ height: 80%;
+ width: 90%;
+}
+
+
+.coluna {
+    padding: 0 5%;
+    float: left;
+    position:relative;
+    
+}
+
+.dois {
+    width: 40%;
+    
+}
+
+.tres {
+    width: 22%;
+    padding: 0 5%;
+}
+
+.cinco {
+    width: 15%;
+    background-color: rgb(74, 143, 61);
+
+}
+
+.quatro {
+    width: 15%;
+    background-color: rgb(235, 237, 117);
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+ #caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid rgb(244, 244, 244);
+    line-height: 80.5px;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 20px;
+    text-decoration: none;
+    align-self: hover;
+ } 
+
+ .imagemeco {
+    width:100% ;
+    height:45% ;
+    background-color: rgb(181, 150, 10);
+ }
+
+
+ 
+
+ .selecao {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color: rgb(167, 193, 96);
+ }
+
+ #ecopontos {
+    background-color: rgb(76, 109, 141);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+ }
+
+ .imagem {
+    width: 100%;
+    height: 100%;
+ }
+#logo {
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    padding-left: 2%;
+}
+#menu {
+    float: right;
+    list-style: none;
+    margin-top: 0%;
+}
+#menu2 {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: index 10; ;
+}
+li:houver {
+    background-color: rgb(214, 195, 85);
+}
+li {
+    padding: 20 10 20 10;
+    float: right;
+}
+html, body {
+    margin: 0;
+
+}
+
+#lista {
+    padding: 20 10 20 10;
+    float: right;
+}
+
+#ecoo {
+    height: 80%;
+    width: 30%;
+}
+
+body {
+    background-color:  rgb(76, 109, 141) ;
+}
+
+#ecopo {
+    background-color:   rgb(76, 109, 141) ;
+    height: 80%;
+    width: 30%;
+    padding: 0 5%;
+}
+#maisum {
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border: 2px rgb(211, 211, 211) solid;
+    background-color: rgb(161, 185, 7);
+}
+#loco {
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border: 2px rgb(17, 7, 7) solid;
+    background-color: rgb(203, 176, 89);
+}
+.bom {
+    text-decoration: double;
+
+}
+
+
+
